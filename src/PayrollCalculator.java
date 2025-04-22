@@ -33,7 +33,7 @@ public class PayrollCalculator {
                     Employee emp = new Employee(id, name, hoursWorked, payRate);
 
                     // Print employee details
-                    System.out.printf("ID: %d, Name: %s, Gross Pay: $%.2f%n",  // ✅ FIXED format string
+                    System.out.printf("ID: %d, Name: %s, Gross Pay: $%.2f%n",
                             emp.getEmployeeId(),
                             emp.getName(),
                             emp.getGrossPay());
